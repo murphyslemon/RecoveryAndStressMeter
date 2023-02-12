@@ -14,6 +14,7 @@ School of ICT
 Metropolia University of Applied Sciences
 
 ##Introduction
+
 This document describes the project plan for 'The recovery and stress meter project' to be conducted during the first term of 2023 Hardware courses at Metropolia University of Applied Sciences. The planning for the project is done during the Hardware 1 course and the project itself will be carried out during the Hardware 2 course in March, April and May. 
 The idea of this project is to make a portable heart rate monitor which works wirelessly and records data in real time. 
 In order to do this, we will learn about the necessary hardware and software related to our project in order to carry it out successfully and have a functioning system.
@@ -21,9 +22,11 @@ In order to do this, we will learn about the necessary hardware and software rel
 ##Project Description
 
 ##Communication
+
 To ensure that our project work goes smoothly we will aim to communicate with each other on a regular basis. In order to do that we will be using a combination of Discord, GitHub and in-person meetings for all of our communication purposes. Our own private Discord server is used for online communication, GitHub for file sharing and storage and lastly we use our in-person meetings to check up on team progress and evaluate next steps. The work on the project will be done as a combination of work from home and in-person meetings. For our meeting notes we will be using a specific channel in our Discord server for storing them.
 
 ##Version Control
+
 We will be handling version control by primarily using GitHub. Additionally, we will be pushing each major update to our private GitLab repository which is accessible to our project coordinator. For document and material storage we will be using our Discord server as well as GitHub. 
 
 ##Schedule
