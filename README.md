@@ -10,7 +10,9 @@ Team Members:
 - Francesco Natanni 
  
 First year hardware project
+
 School of ICT
+
 Metropolia University of Applied Sciences
 
 ## Introduction
