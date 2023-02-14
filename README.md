@@ -9,10 +9,8 @@ Team Members:
 - Joona Rantala
 - Francesco Natanni 
  
-First year hardware project
-
-School of ICT
-
+First year hardware project\
+School of ICT\
 Metropolia University of Applied Sciences
 
 ## Introduction
