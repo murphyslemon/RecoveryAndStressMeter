@@ -1,5 +1,5 @@
 # Stressmeter 9000
-Team Name: Team Stress-A-Lot
+Team 2: Team Stress-A-Lot
 
 Project Manager: Sakari Lukkarinen
 
