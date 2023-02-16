@@ -76,6 +76,7 @@ To ensure that our project work goes smoothly we will aim to communicate with ea
 We will be handling version control by primarily using GitHub. Additionally, we will be pushing each major update to our private GitLab repository which is accessible to our project coordinator. For document and material storage we will be using our Discord server as well as GitHub. 
 
 ## Schedule
+![GANTT Schedule](/Images/GANT.png)
 
 ## Goals
 Our teams goal is to better understand how hardware systems work by developing a fully functional system that we are satisfied with while maintaining a healthy and cooperative atmosphere within the team. We hope to attain a better understanding of how to implement various hardware components such as protoboard, Raspberry Pi Pico, Crowtail Pulse Sensor v2.0 and an OLED display. Additionally, we are looking to improve our practical software skills by utilizing the knowledge obtained previously. 
