@@ -33,7 +33,7 @@ In order to do this, we will learn about the necessary hardware and software rel
     SSD1306 compatible 128x64 monochrome organic LED-display. Communicates with I2C or UART-protocol. 
 
 - **Rotary Knob**\
-    - Digital rotary knob with push button. 
+    Digital rotary knob with push button. 
 
 - **Raspberry Pi 4**\
     A computer that will be used to host our Web Server and for data storing purposes. 
