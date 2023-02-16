@@ -66,7 +66,7 @@ In order to do this, we will learn about the necessary hardware and software rel
 **Wokwi**
 - A browser-based simulator for various boards, e.g. Arduino and Raspberry Pi Pico
 
-![Project Architecture Diagram]()
+![Project Architecture Diagram](/Images/Project_arichitecture.png)
 
 ## Communication
 To ensure that our project work goes smoothly we will aim to communicate with each other on a regular basis. In order to do that we will be using a combination of Discord, GitHub and in-person meetings for all of our communication purposes. Our own private Discord server is used for online communication, GitHub for file sharing and storage and lastly we use our in-person meetings to check up on team progress and evaluate next steps. The work on the project will be done as a combination of work from home and in-person meetings. For our meeting notes we will be using a specific channel in our Discord server for storing them.
@@ -80,3 +80,6 @@ We will be handling version control by primarily using GitHub. Additionally, we 
 ## Goals
 Our teams goal is to better understand how hardware systems work by developing a fully functional system that we are satisfied with while maintaining a healthy and cooperative atmosphere within the team. We hope to attain a better understanding of how to implement various hardware components such as protoboard, Raspberry Pi Pico, Crowtail Pulse Sensor v2.0 and an OLED display. Additionally, we are looking to improve our practical software skills by utilizing the knowledge obtained previously. 
 Our team has not worked together previously so we look forward to improving our interpersonal communication skills and learning from each other.
+
+
+[def]: image
