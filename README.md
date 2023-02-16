@@ -19,52 +19,52 @@ The idea of this project is to make a portable heart rate monitor which works wi
 In order to do this, we will learn about the necessary hardware and software related to our project in order to carry it out successfully and have a functioning system.
 
 ## Project Description
-### HARDWARE COMPONENTS:\
+### HARDWARE COMPONENTS:
 - **Protoboard**
-    - Passive protoboard specially designed for this project to help connect the other components to the Raspberry Pi Pico. 
+    Passive protoboard specially designed for this project to help connect the other components to the Raspberry Pi Pico. 
 
 - **Raspberry Pi Pico**
-    - Dual-core ARM processor microcontroller having 246 kB SRAM and 2 MB on-board Flash. It also includes 2.4 GHz wireless LAN and 26 multifunction GPIO pins. 
+    Dual-core ARM processor microcontroller having 246 kB SRAM and 2 MB on-board Flash. It also includes 2.4 GHz wireless LAN and 26 multifunction GPIO pins. 
 
 - **Crowtail Pulse Sensor v2.0**
-    - Optical heart rate sensor having LED, photodiode, analog amplifier, and analog signal output. Operating voltage 3-5 V. 
+    Optical heart rate sensor having LED, photodiode, analog amplifier, and analog signal output. Operating voltage 3-5 V. 
 
 - **OLED Display**
-    - SSD1306 compatible 128x64 monochrome organic LED-display. Communicates with I2C or UART-protocol. 
+    SSD1306 compatible 128x64 monochrome organic LED-display. Communicates with I2C or UART-protocol. 
 
 - **Rotary Knob**
     - Digital rotary knob with push button. 
 
 - **Raspberry Pi 4**
-    - A computer that will be used to host our Web Server and for data storing purposes. 
+    A computer that will be used to host our Web Server and for data storing purposes. 
 
 - **ASUS RT-AX53U**
-    - A 2x2 dualband WiFI router. 
+    A 2x2 dualband WiFI router. 
 
-### SOFTWARE TOOLS:\
-**Raspberry Pi OS**
-- Operating system for the Raspberry Pi used in our server. 
+### SOFTWARE TOOLS:
+- **Raspberry Pi OS**
+    Operating system for the Raspberry Pi used in our server. 
 
-**Apache 2**
-- HTTP server software used to implement our own Web server for this project’s purposes. 
+- **Apache 2**
+    HTTP server software used to implement our own Web server for this project’s purposes. 
 
-**MicroPython**
-- Language used to program the Raspberry Pi Pico microcontroller. 
+- **MicroPython**
+    Language used to program the Raspberry Pi Pico microcontroller. 
 
-**Ulab**
-- A numpy-like module for MicroPython to speed up mathematical operations on arrays. 
+- **Ulab**
+    A numpy-like module for MicroPython to speed up mathematical operations on arrays. 
 
-**Kubios Cloud**
-- A HRV (heart rate variability) analysis provider. 
+- **Kubios Cloud**
+    A HRV (heart rate variability) analysis provider. 
 
-**MariaDB**
-- Database used to store our data. 
+- **MariaDB**
+    Database used to store our data. 
 
-**Thonny IDE**
-- Development environment for MicroPython. 
+- **Thonny IDE**
+    Development environment for MicroPython. 
 
-**Wokwi**
-- A browser-based simulator for various boards, e.g. Arduino and Raspberry Pi Pico
+- **Wokwi**
+    A browser-based simulator for various boards, e.g. Arduino and Raspberry Pi Pico
 
 ![Project Architecture Diagram](/Images/Project_arichitecture.png)
 
