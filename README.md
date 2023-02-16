@@ -20,26 +20,26 @@ In order to do this, we will learn about the necessary hardware and software rel
 
 ## Project Description
 ### HARDWARE COMPONENTS:\
-**Protoboard**
-- Passive protoboard specially designed for this project to help connect the other components to the Raspberry Pi Pico. 
+- **Protoboard**
+    - Passive protoboard specially designed for this project to help connect the other components to the Raspberry Pi Pico. 
 
-**Raspberry Pi Pico**
-- Dual-core ARM processor microcontroller having 246 kB SRAM and 2 MB on-board Flash. It also includes 2.4 GHz wireless LAN and 26 multifunction GPIO pins. 
+- **Raspberry Pi Pico**
+    - Dual-core ARM processor microcontroller having 246 kB SRAM and 2 MB on-board Flash. It also includes 2.4 GHz wireless LAN and 26 multifunction GPIO pins. 
 
-**Crowtail Pulse Sensor v2.0**
-- Optical heart rate sensor having LED, photodiode, analog amplifier, and analog signal output. Operating voltage 3-5 V. 
+- **Crowtail Pulse Sensor v2.0**
+    - Optical heart rate sensor having LED, photodiode, analog amplifier, and analog signal output. Operating voltage 3-5 V. 
 
-**OLED Display**
-- SSD1306 compatible 128x64 monochrome organic LED-display. Communicates with I2C or UART-protocol. 
+- **OLED Display**
+    - SSD1306 compatible 128x64 monochrome organic LED-display. Communicates with I2C or UART-protocol. 
 
-**Rotary Knob**
-- Digital rotary knob with push button. 
+- **Rotary Knob**
+    - Digital rotary knob with push button. 
 
-**Raspberry Pi 4**
-- A computer that will be used to host our Web Server and for data storing purposes. 
+- **Raspberry Pi 4**
+    - A computer that will be used to host our Web Server and for data storing purposes. 
 
-**ASUS RT-AX53U**
-- A 2x2 dualband WiFI router. 
+- **ASUS RT-AX53U**
+    - A 2x2 dualband WiFI router. 
 
 ### SOFTWARE TOOLS:\
 **Raspberry Pi OS**
