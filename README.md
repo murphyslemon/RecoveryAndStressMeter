@@ -19,7 +19,7 @@ The idea of this project is to make a portable heart rate monitor which works wi
 In order to do this, we will learn about the necessary hardware and software related to our project in order to carry it out successfully and have a functioning system.
 
 ## Project Description
-HARDWARE COMPONENTS:\
+### HARDWARE COMPONENTS:\
 **Protoboard**
 - Passive protoboard specially designed for this project to help connect the other components to the Raspberry Pi Pico. 
 
@@ -29,43 +29,44 @@ HARDWARE COMPONENTS:\
 **Crowtail Pulse Sensor v2.0**
 - Optical heart rate sensor having LED, photodiode, analog amplifier, and analog signal output. Operating voltage 3-5 V. 
 
-OLED Display
+**OLED Display**
 - SSD1306 compatible 128x64 monochrome organic LED-display. Communicates with I2C or UART-protocol. 
 
-Rotary Knob
+**Rotary Knob**
 - Digital rotary knob with push button. 
 
-Raspberry Pi 4
+**Raspberry Pi 4**
 - A computer that will be used to host our Web Server and for data storing purposes. 
 
-ASUS RT-AX53U
+**ASUS RT-AX53U**
 - A 2x2 dualband WiFI router. 
 
-SOFTWARE TOOLS:\
-Raspberry Pi OS
-
+### SOFTWARE TOOLS:\
+**Raspberry Pi OS**
 - Operating system for the Raspberry Pi used in our server. 
 
-Apache 2
+**Apache 2**
 - HTTP server software used to implement our own Web server for this project’s purposes. 
 
-MicroPython
+**MicroPython**
 - Language used to program the Raspberry Pi Pico microcontroller. 
 
-Ulab
+**Ulab**
 - A numpy-like module for MicroPython to speed up mathematical operations on arrays. 
 
-Kubios Cloud
+**Kubios Cloud**
 - A HRV (heart rate variability) analysis provider. 
 
-MariaDB
+**MariaDB**
 - Database used to store our data. 
 
-Thonny IDE
+**Thonny IDE**
 - Development environment for MicroPython. 
 
-Wokwi
-- A browser-based simulator for various boards, e.g. Arduino and Raspberry Pi Pico 
+**Wokwi**
+- A browser-based simulator for various boards, e.g. Arduino and Raspberry Pi Pico
+
+![Project Architecture Diagram]()
 
 ## Communication
 To ensure that our project work goes smoothly we will aim to communicate with each other on a regular basis. In order to do that we will be using a combination of Discord, GitHub and in-person meetings for all of our communication purposes. Our own private Discord server is used for online communication, GitHub for file sharing and storage and lastly we use our in-person meetings to check up on team progress and evaluate next steps. The work on the project will be done as a combination of work from home and in-person meetings. For our meeting notes we will be using a specific channel in our Discord server for storing them.
