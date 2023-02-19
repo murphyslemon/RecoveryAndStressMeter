@@ -1,3 +1,54 @@
+Sakari Lukkarinen
+# Hardware 2 project requirements
+Version 2.4\
+06 February 2023\
+Prepared for the Hardware 1 & 2 courses\
+School of ICT\
+Metropolia University of Applied Sciences\
+
+
+## Revision history
+Version | Date | Reason for changes | Author
+------------- | ------------- | ------------- | -------------
+2.1 | 27.1.2023 | New version of the requirements specification using IEEE standard-based template | Sakari Lukkarinen
+2.2 | 2.2.2023 | Changes based on requests, comments of the first change request meeting 30.1.2023. | Sakari Lukkarinen
+2.3 | 5.2.2023 | Added missing hardware components, simplified the contents, use cases and functional requirements moved to Excel sheet | Joseph Hotckiss, Sakari Lukkarinen
+2.4 | 6.2.2023 | Changes based on review meeting | Joseph Hotchkiss, Keijo Länsikunnas, Saana Vallius, Miguel Cheneuer, Sakari Lukkarinen
+
+## Contents
+[1	Introduction](#1-introductionIn)
+- [1.1	Purpose](#11-purpose)
+- [1.2	Scope](#12-scope)
+- [1.3	Definitions, acronyms, and abbreviations](#13-definitions-acronyms-and-abbreviations)
+- [1.4	References](#14-references)
+- [1.5	Overview](#15-overview)
+[2	General description](#2-general-description)
+- [2.1	Product perspective](#21-product-perspective)
+    - [2.1.1	Stress	10](#211-stress)
+    - [2.1.2	Detecting heart rate](#212-detecting-heart-rate)
+    - [2.1.3	Heart rate variability](#213-heart-rate-variability)
+    - [2.1.4	Recovery and stress indexes](#214-recovery-and-stress-indexes)
+- [2.2	Product functions](#22-product-functions)
+- [2.2.1	The purpose](#221-the-purpose)
+    - [2.2.2	Application concept](#222-application-concept)
+    - [2.2.3	Operating principle](#223-operating-principle)
+    - [2.2.4	Key features](#224-key-features)
+- [2.3	Use, users, and application characteristics](#23-use-users-and-application-characteristics)
+- [2.4	Development tools](#24-development-tools)
+[3	Specific requirements](#3-specific-requirements)
+- [3.1	User interfaces](#31-user-interfaces)
+    - [3.1.1	OLED display](#311-oled-display)
+    - [3.1.2	Rotary encoder](#312-rotary-encoder)
+    - [3.1.3	Grove connectors](#313-grove-connectors)
+    - [3.1.4	Heart rate sensor](#314-heart-rate-sensor)
+    - [3.1.5	USB-port](#315-usb-port)
+- [3.2	Use cases](#32-use-cases)
+- [3.3	MicroPython modules and classes](#33-micropython-modules-and-classes)
+    - [3.3.1	SSD1306](#331-ssd1306)
+- [3.4	Non-functional requirements](#34-non-functional-requirements)
+4	[Change management process](#4-change-management-process)
+5	[References](#5-references)
+
 
 
 ## 1 Introduction 
