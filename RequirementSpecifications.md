@@ -168,7 +168,7 @@ The European Society of Cardiology together with the North American Society of P
 Table 1. Selected time-domain measures of HRV [12]. 
 Variable | Unit | Description
 ------------- | ------------- | -------------
-| <td colspan=3>Statistical measures
+<td colspan=3>Statistical measures
 SDNN | ms | Standard deviation of all NN intervals 
 SDANN | ms | Standard deviation of the averages of NN intervals in all 5-minute segments of the entire recording 
 RMSSD | ms | The square root of the mean of the sum of the squares of differences between adjacent NN intervals 
@@ -176,7 +176,7 @@ SDNN index | ms | Mean of the standard deviations of all NN intervals for all 5-
 SDSD | ms | Standard deviation of differences between adjacent NN intervals 
 NN50 count | |Number of pairs of adjacent NN intervals differing by more than 50 ms in the entire recording; three variants are possible counting all such NN intervals pairs or only pairs in which the first or the second interval is longer 
 pNN50 | % |NN50 count divided by the total number of all NN intervals 
-| <td colspan=3>Geometric measures 
+<td colspan=3>Geometric measures 
 HRV triangular index | | Total number of all NN intervals divided by the height of the histogram of all NN intervals measured on a discrete scale with bins of 7.8125 ms (1/128 seconds) 
 TINN | ms | Baseline width of the minimum square difference triangular interpolation of the highest peak of the histogram of all NN intervals 
 Differential index | ms | Difference between the widths of the histogram of differences between adjacent NN intervals measured at selected heights (e.g., at the levels of 1,000 and 10,000 samples) 
@@ -186,7 +186,7 @@ Table 2. Selected frequency-domain measures of HRV [12].
 
 Variable | Unit | Description | Frequency range 
 ------------- | ------------- | ------------- | -------------
-| <td colspan=4>Analysis of short-term recordings (5 min) 
+<td colspan=4>Analysis of short-term recordings (5 min) 
 5-min total power | ms2 | The variance of NN intervals over the temporal segment | ≈≤0.4 Hz 
 VLF | ms2 | Power in VLF range | ≤0.04 Hz 
 LF | ms2 | Power in LF range | 0.04–0.15 Hz 
@@ -194,7 +194,7 @@ LF norm | n.u. | LF power in normalized units LF/(total power-VLF)×100 |
 HF | ms2 | Power in HF range | 0.15–0.4 Hz 
 HF norm | n.u. | HF power in normalized units HF/(total power-VLF)×100 |
 LF/HF | | Ratio LF/HF |
-| <td colspan=4>Analysis of entire 24 hours 
+<td colspan=4>Analysis of entire 24 hours 
 Total power | ms2 | Variance of all NN intervals | ≈≤0.4 Hz 
 ULF | ms2 | Power in the ULF range | ≤0.003 Hz 
 LF | ms2 | Power in the VLF range | 0.003–0.04 Hz 
