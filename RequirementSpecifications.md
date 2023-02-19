@@ -24,81 +24,44 @@ The device is intended to be used in home or office environments either by the e
 The device detects the heart rate and its variability using a photoplethysmography (PPG). It measures optically blood volume changes in the microvascular bed of tissue. The change in volume is detected by measuring the light emitted by the light emitting diodes (LEDs), absorbed by the tissues, and detected with photodiodes. The heart rate can be measured from the peaks of the alternating signal presenting the volumetric blood changes in the tissue. 
 
 ### 1.3 Definitions, acronyms, and abbreviations 
-
-α - Slope of the linear interpolation of the spectrum in a log-log scale 
-
-ANS - Autonomous nervous system 
-
-BPM - Beat per minute 
-
-ECG - Electrocardiogram 
-
-IBI - Inter-beat-interval, measured from PPG signal, given in milliseconds (ms) 
-
-HF - High frequency (0.15 - 0.4 Hz) 
-
-HR - Heart rate, typically given in units of beat per minute (BPM) 
-
-HRV - Heart rate variability, measures how variability there is  in the heart rate from beat to beat over a longer period, can be characterized by several parameters 
-
-Hz - Hertz, cycles per second, unit for frequency 
-
-LAN - Local area network 
-
-LED - Light emitting diode 
-
-LF - Low frequency (0.04 - 0.15 Hz) 
-
-LF/HF - Ratio of LF/HF 
-
-ms - millisecond 
-
-NN interval - Time difference between two peaks either in ECG or PPG signal, either PPI or RRI (ms) 
-
-NN50 count - Number of pairs of adjacent NN intervals differing more than 50 ms 
-
-OLED - Organic light-emitting diode 
-
-pNN50 - NN50 count divided by the total number of all NN intervals 
-
-Poincaré plot - a type of recurrence plot used to quantify self-similarity in processes, usually periodic functions 
-
-PPI - peak-to-peak interval, time difference between two pulse peaks in photoplethysmography signal measured in ms 
-
-PPG - Photoplethysmography, optically detected heart pulse typically detected from peripheral blood circulation, like from finger, wrist, toe, or ear lobe 
-
-PNS - Parasympathetic nervous system, part of autonomic nervous system 
-
-PTSD - Post-traumatic stress disorder 
-
-RMSSD - The square root of sum of squares of differences (ms) 
-
-RRI - RR-interval, time difference between two R-peaks in ECG signal (ms) 
-
-SD1 - Poincaré plot index, the first ellipse shape parameter estimated from the Poincaré plot 
-
-SD2 - Poincaré plot index, the second ellipse shape parameter estimated from the Poincaré plot 
-
-SDANN - Standard deviation of the average of NN intervals (ms)   
-
-SDNN - Standard deviation of all NN intervals (ms) 
-
-SI - Baevsky’s stress index 
-
-SDSD - Standard deviation of differences between adjacent NN intervals measured in milliseconds (ms) 
-
-SNS - Sympathetic nervous system, part of autonomic nervous system 
-
-ULF - Ultra-low frequency (0 - 0.003 Hz) 
-
-USB - Universal serial port 
-
-WiFi - Wireless fidelity 
-
-VLF - Very flow frequency (0.003 - 0.04 Hz) 
+α | Slope of the linear interpolation of the spectrum in a log-log scale 
+ANS | Autonomous nervous system 
+BPM | Beat per minute 
+ECG | Electrocardiogram 
+IBI | Inter-beat-interval, measured from PPG signal, given in milliseconds (ms) 
+HF | High frequency (0.15 - 0.4 Hz) 
+HR | Heart rate, typically given in units of beat per minute (BPM) 
+HRV | Heart rate variability, measures how variability there is  in the heart rate from beat to beat over a longer period, can be characterized by several parameters 
+Hz | Hertz, cycles per second, unit for frequency 
+LAN | Local area network 
+LED | Light emitting diode 
+LF | Low frequency (0.04 - 0.15 Hz) 
+LF/HF | Ratio of LF/HF 
+ms | millisecond 
+NN interval | Time difference between two peaks either in ECG or PPG signal, either PPI or RRI (ms) 
+NN50 count | Number of pairs of adjacent NN intervals differing more than 50 ms 
+OLED | Organic light-emitting diode 
+pNN50 | NN50 count divided by the total number of all NN intervals 
+Poincaré plot | a type of recurrence plot used to quantify self-similarity in processes, usually periodic functions 
+PPI | peak-to-peak interval, time difference between two pulse peaks in photoplethysmography signal measured in ms 
+PPG | Photoplethysmography, optically detected heart pulse typically detected from peripheral blood circulation, like from finger, wrist, toe, or ear lobe 
+PNS | Parasympathetic nervous system, part of autonomic nervous system 
+PTSD | Post-traumatic stress disorder 
+RMSSD | The square root of sum of squares of differences (ms) 
+RRI | RR-interval, time difference between two R-peaks in ECG signal (ms) 
+SD1 | Poincaré plot index, the first ellipse shape parameter estimated from the Poincaré plot 
+SD2 | Poincaré plot index, the second ellipse shape parameter estimated from the Poincaré plot 
+SDANN | Standard deviation of the average of NN intervals (ms)   
+SDNN | Standard deviation of all NN intervals (ms) 
+SI | Baevsky’s stress index 
+SDSD | Standard deviation of differences between adjacent NN intervals measured in milliseconds (ms) 
+SNS | Sympathetic nervous system, part of autonomic nervous system 
+ULF | Ultra-low frequency (0 - 0.003 Hz) 
+USB | Universal serial port 
+WiFi | Wireless fidelity 
+VLF | Very flow frequency (0.003 - 0.04 Hz) 
 
 ### 1.4 References 
-
 A complete list of all documents referenced is provided at the end of this document in Chapter 5, References. 
 
 ### 1.5 Overview 
@@ -124,7 +87,7 @@ Stress is defined as “a physical, mental, or emotional factor that causes bodi
 33 % of people report feeling extreme stress 
 
  
-
+# add image here
  
 
 Figure 1. Very high stress often affects the body. Many people get unpleasant feelings. Original from ​[6]​. 
@@ -142,14 +105,14 @@ ats and is given in units of beats per minute (BPM). Usually, the heart rate var
 Heart rate variability (HRV) is the variation of the time intervals between heartbeats, and it is measured in units of seconds (s), or more commonly, in milliseconds (ms). Other terms used include RR interval (RRI) variability, where R corresponds to the peak of QRS-complex of electrocardiography (ECG), and Peak-to-Peak interval, if the HRV is measured optically.  Figure 2 visualizes heart HRV with R-R interval (RRI) changes. ​[9]​ 
 
  
-
+# add image here
  
 
 Figure 2. Heart rate variability (HRV) calculated from the R-R intervals (RRI)​ [9]​. 
 
 Heart rate variability can be detected with various methods. ECG is considered the golden standard for HRV measurement ​[9]​. Other methods are photoplethysmography (PPG), which detects the heart rate variability optically, usually measured from fingers, wrists, forehead or earlobes, blood pressure or ballistocardiography, which measures small changes in body’s weight when the blood flows from the heart to the aorta.  
 
- 
+ # add image here
 
 Figure 3 shows a typical fitness and wellness watch having an optical heart rate sensor ​[10]​. The light emitting diodes (LEDs) and optical detectors are seen on the back of the watch. 
 
@@ -161,7 +124,7 @@ Figure 3. An example of fitness and wellness watch having an optical heart rate 
 
 Figure 4 shows an example of photoplethysmography signal recorded with wrist worn pulse oximetry ​[11]​. The device is shown on the left. The sensor is attached to the thumb. The PPG signal is shown on the right. The inter-beat-interval (IBI) is calculated from the negative peaks (the bottoms) of the PPG signal. It could be calculated also from the positive peaks (the maximum) or from the rising edges of the signal.  
 
- 
+ # add image here
 
 Figure 4. An example of photoplethysmography signal recorded with pulse oximetry used on the thumb.​ [11]​ 
 
@@ -177,232 +140,41 @@ The European Society of Cardiology together with the North American Society of P
  
 
 Table 1. Selected time-domain measures of HRV ​[12]​. 
-
-Variable 
-
-Unit 
-
-Description 
-
- 
-
+Variable | Unit | Description
+------------- | ------------- | -------------
 Statistical measures 
-
- 
-
- 
-
-SDNN 
-
-ms 
-
-Standard deviation of all NN intervals 
-
-SDANN 
-
-ms 
-
-Standard deviation of the averages of NN intervals in all 5-minute segments of the entire recording 
-
-RMSSD 
-
-ms 
-
-The square root of the mean of the sum of the squares of differences between adjacent NN intervals 
-
-SDNN index 
-
-ms 
-
-Mean of the standard deviations of all NN intervals for all 5-minute segments of the entire recording 
-
-SDSD 
-
-ms 
-
-Standard deviation of differences between adjacent NN intervals 
-
-NN50 count 
-
- 
-
-Number of pairs of adjacent NN intervals differing by more than 50 ms in the entire recording; three variants are possible counting all such NN intervals pairs or only pairs in which the first or the second interval is longer 
-
-pNN50 
-
-% 
-
-NN50 count divided by the total number of all NN intervals 
-
- 
-
+SDNN | ms | Standard deviation of all NN intervals 
+SDANN | ms | Standard deviation of the averages of NN intervals in all 5-minute segments of the entire recording 
+RMSSD | ms | The square root of the mean of the sum of the squares of differences between adjacent NN intervals 
+SDNN index | ms | Mean of the standard deviations of all NN intervals for all 5-minute segments of the entire recording 
+SDSD | ms | Standard deviation of differences between adjacent NN intervals 
+NN50 count | |Number of pairs of adjacent NN intervals differing by more than 50 ms in the entire recording; three variants are possible counting all such NN intervals pairs or only pairs in which the first or the second interval is longer 
+pNN50 | % |NN50 count divided by the total number of all NN intervals 
 Geometric measures 
-
- 
-
- 
-
-HRV triangular index 
-
- 
-
-Total number of all NN intervals divided by the height of the histogram of all NN intervals measured on a discrete scale with bins of 7.8125 ms (1/128 seconds) 
-
-TINN 
-
-ms 
-
-Baseline width of the minimum square difference triangular interpolation of the highest peak of the histogram of all NN intervals 
-
-Differential index 
-
-ms 
-
-Difference between the widths of the histogram of differences between adjacent NN intervals measured at selected heights (e.g., at the levels of 1,000 and 10,000 samples) 
-
-Logarithmic index 
-
- 
-
-Coefficient φ of the negative exponential curve k · e−φt, which is the best approximation of the histogram of absolute differences between adjacent NN intervals 
-
- 
-
-  
-
- 
- 
+HRV triangular index | | Total number of all NN intervals divided by the height of the histogram of all NN intervals measured on a discrete scale with bins of 7.8125 ms (1/128 seconds) 
+TINN | ms | Baseline width of the minimum square difference triangular interpolation of the highest peak of the histogram of all NN intervals 
+Differential index | ms | Difference between the widths of the histogram of differences between adjacent NN intervals measured at selected heights (e.g., at the levels of 1,000 and 10,000 samples) 
+Logarithmic index | | Coefficient φ of the negative exponential curve k · e−φt, which is the best approximation of the histogram of absolute differences between adjacent NN intervals 
 
 Table 2. Selected frequency-domain measures of HRV ​[12]​. 
 
-Variable 
-
-Units 
-
-Description 
-
-Frequency range 
-
- 
-
+Variable | Unit | Description | Frequency range 
+------------- | ------------- | ------------- | -------------
 Analysis of short-term recordings (5 min) 
-
- 
-
- 
-
- 
-5-min total power 
-
-ms2 
-
-The variance of NN intervals over the temporal segment 
-
-≈≤0.4 Hz 
-
-VLF 
-
-ms2 
-
-Power in VLF range 
-
-≤0.04 Hz 
-
-LF 
-
-ms2 
-
-Power in LF range 
-
-0.04–0.15 Hz 
-
-LF norm 
-
-n.u. 
-
-LF power in normalized units LF/(total power-VLF)×100 
-
- 
-
-HF 
-
-ms2 
-
-Power in HF range 
-
-0.15–0.4 Hz 
-
-HF norm 
-
-n.u. 
-
-HF power in normalized units HF/(total power-VLF)×100 
-
- 
-
-LF/HF 
-
- 
-
-Ratio LF/HF 
-
- 
-
- 
-
+5-min total power | ms2 | The variance of NN intervals over the temporal segment | ≈≤0.4 Hz 
+VLF | ms2 | Power in VLF range | ≤0.04 Hz 
+LF | ms2 | Power in LF range | 0.04–0.15 Hz 
+LF norm | n.u. | LF power in normalized units LF/(total power-VLF)×100 |
+HF | ms2 | Power in HF range | 0.15–0.4 Hz 
+HF norm | n.u. | HF power in normalized units HF/(total power-VLF)×100 |
+LF/HF | | Ratio LF/HF |
 Analysis of entire 24 hours 
-
- 
-
- 
-
-Total power 
-
-ms2 
-
-Variance of all NN intervals 
-
-≈≤0.4 Hz 
-
-ULF 
-
-ms2 
-
-Power in the ULF range 
-
-≤0.003 Hz 
-
-LF 
-
-ms2 
-
-Power in the VLF range 
-
-0.003–0.04 Hz 
-
-VLF 
-
-ms2 
-
-Power in the LF range 
-
-0.04–0.15 Hz 
-
-HF 
-
-ms2 
-
-Power in the HF range 
-
-0.15–0.4 Hz 
-
-α 
-
- 
-
-Slope of the linear interpolation of the spectrum in a log-log scale 
-
- 
+Total power | ms2 | Variance of all NN intervals | ≈≤0.4 Hz 
+ULF | ms2 | Power in the ULF range | ≤0.003 Hz 
+LF | ms2 | Power in the VLF range | 0.003–0.04 Hz 
+VLF | ms2 | Power in the LF range | 0.04–0.15 Hz 
+HF | ms2 | Power in the HF range | 0.15–0.4 Hz 
+α | | Slope of the linear interpolation of the spectrum in a log-log scale |
 
 ULF = Ultra low frequency, VLF = Very low frequency, LF = Low frequency, HF = High frequency.  
 
@@ -428,7 +200,7 @@ Each parameter is compared to their normal population values and the values are 
 
  
 
- 
+ # add image here
 
 Figure 5. Parasympathetic nervous system (PNS) index. High positive values are interpreted as a good recovery of the test subject. ​[13]​ 
 
