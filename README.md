@@ -80,6 +80,6 @@ The following image shows our proposed schedule.
 ![GANTT Schedule](/Images/GANTT.png)
 
 ## Goals
-Our team's goal is to better understand hardware systems by developing our own functional hardware system. The system must satisfy the guidelines set by the Requirement Specifications Document. We hope to attain a better understanding of how to implement various hardware components such as a protoboard, Raspberry Pi Pico, Crowtail Pulse Sensor and an OLED display. Additionally, we are looking to improve our software skills by utilizing the knowledge obtained previously in our software courses.
+Our team's goal is to better understand hardware systems by developing our own functional hardware system. The system must satisfy the guidelines set by the [Requirement Specifications Document](https://github.com/murphyslemon/RecoveryAndStressMeter/blob/main/RequirementSpecifications.md). We hope to attain a better understanding of how to implement various hardware components such as a protoboard, Raspberry Pi Pico, Crowtail Pulse Sensor and an OLED display. Additionally, we are looking to improve our software skills by utilizing the knowledge obtained previously in our software courses.
 
 We plan to maintain a healthy and cooperative atmosphere within the team. Our team has not worked together previously so we look forward to improving our interpersonal communication skills and learning from each other.
