@@ -24,6 +24,7 @@ The device is intended to be used in home or office environments either by the e
 The device detects the heart rate and its variability using a photoplethysmography (PPG). It measures optically blood volume changes in the microvascular bed of tissue. The change in volume is detected by measuring the light emitted by the light emitting diodes (LEDs), absorbed by the tissues, and detected with photodiodes. The heart rate can be measured from the peaks of the alternating signal presenting the volumetric blood changes in the tissue. 
 
 ### 1.3 Definitions, acronyms, and abbreviations 
+
 α | Slope of the linear interpolation of the spectrum in a log-log scale 
 ANS | Autonomous nervous system 
 BPM | Beat per minute 
