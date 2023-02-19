@@ -25,6 +25,8 @@ The device detects the heart rate and its variability using a photoplethysmograp
 
 ### 1.3 Definitions, acronyms, and abbreviations 
 
+Term | Definition
+------------- | -------------
 α | Slope of the linear interpolation of the spectrum in a log-log scale 
 ANS | Autonomous nervous system 
 BPM | Beat per minute 
