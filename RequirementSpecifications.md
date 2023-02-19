@@ -191,9 +191,10 @@ Table 3. Component used in the proof-of-concept product.
 
 Component | Description | More info 
 ------------- | ------------- | -------------
-Raspberry Pi Pico | Dual-core ARM processor microcontroller having 246 kB SRAM and 2 MB on-board Flash. It also includes 2.4 GHz wireless LAN and 26 multifunction GPIO pins. | https://www.raspberrypi.com/products/raspberry-pi-pico/ Raspberry Pi Pico series – Raspberry Pi | Crowtail Pulse Sensor v2.0 | Optical heart rate sensor having LED, photodiode, analog amplifier, and analog signal output. Operating voltage 3-5 V | https://www.elecrow.com/crowtail-pulse-sensor-p-1673.html Crowtail- Pulse Sensor 2.0 (elecrow.com) 
-OLED display | SSD1306 compatible 128x64 monochrome organic LED-display. Communicates with I2C or UART-protocol. | https://www.electronicwings.com/sensors-modules/ssd1306-oled-display Sensors Modules SSD1306 Oled Display | Sensors Modules https://docs.micropython.org/en/latest/esp8266/tutorial/ssd1306.html Using a SSD1306 OLED display — MicroPython latest documentation 
-Protoboard | Passive protoboard specially designed for this project to help  connect the other components to the Raspberry Pi Pico. | Joseph Hotchkiss, Project Engineer, Metropolia UAS 
+Raspberry Pi Pico | Dual-core ARM processor microcontroller having 246 kB SRAM and 2 MB on-board Flash. It also includes 2.4 GHz wireless LAN and 26 multifunction GPIO pins. | [Raspberry Pi Pico series – Raspberry Pi](https://www.raspberrypi.com/products/raspberry-pi-pico/) 
+Crowtail Pulse Sensor v2.0 | Optical heart rate sensor having LED, photodiode, analog amplifier, and analog signal output. Operating voltage 3-5 V | [Crowtail- Pulse Sensor 2.0 (elecrow.com)](https://www.elecrow.com/crowtail-pulse-sensor-p-1673.html)  
+OLED display | SSD1306 compatible 128x64 monochrome organic LED-display. Communicates with I2C or UART-protocol. | [Sensors Modules SSD1306 Oled Display | Sensors Modules](https://www.electronicwings.com/sensors-modules/ssd1306-oled-display)  [Using a SSD1306 OLED display — MicroPython latest documentation](https://docs.micropython.org/en/latest/esp8266/tutorial/ssd1306.html) 
+Protoboard | Passive protoboard specially designed for this project to help connect the other components to the Raspberry Pi Pico. | Joseph Hotchkiss, Project Engineer, Metropolia UAS 
 Rotary knob | Digital rotary knob with push button. | Joseph Hotchkiss, Project Engineer, Metropolia UAS 
 
 #### 2.2.3 Operating principle 
