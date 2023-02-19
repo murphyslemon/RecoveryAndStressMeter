@@ -4,8 +4,7 @@ Version 2.4\
 06 February 2023\
 Prepared for the Hardware 1 & 2 courses\
 School of ICT\
-Metropolia University of Applied Sciences\
-
+Metropolia University of Applied Sciences
 
 ## Revision history
 Version | Date | Reason for changes | Author
