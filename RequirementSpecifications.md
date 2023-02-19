@@ -45,8 +45,10 @@ Version | Date | Reason for changes | Author
 - [3.3	MicroPython modules and classes](#33-micropython-modules-and-classes)
     - [3.3.1	SSD1306](#331-ssd1306)
 - [3.4	Non-functional requirements](#34-non-functional-requirements)
-[Change management process](#4-change-management-process)
-[References](#5-references)
+
+[4 Change management process](#4-change-management-process)
+
+[5 References](#5-references)
 
 
 
