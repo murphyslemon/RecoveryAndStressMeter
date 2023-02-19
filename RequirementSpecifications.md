@@ -77,7 +77,7 @@ Stress is defined as “a physical, mental, or emotional factor that causes bodi
 * 48 % of people have trouble sleeping because of stress 
 * 33 % of people report feeling extreme stress 
  
-# add image here
+![Figure 1](/Images/RequirementsSpecifications/fig1.png)
 
 Figure 1. Very high stress often affects the body. Many people get unpleasant feelings. Original from [6]. 
 
@@ -88,7 +88,7 @@ The heart rate or pulse rate measures how often the heart beats and is given in 
 
 Heart rate variability (HRV) is the variation of the time intervals between heartbeats, and it is measured in units of seconds (s), or more commonly, in milliseconds (ms). Other terms used include RR interval (RRI) variability, where R corresponds to the peak of QRS-complex of electrocardiography (ECG), and Peak-to-Peak interval, if the HRV is measured optically.  Figure 2 visualizes heart HRV with R-R interval (RRI) changes. [9] 
 
-# add image here
+![Figure 2](/Images/RequirementsSpecifications/fig2.png)
  
 Figure 2. Heart rate variability (HRV) calculated from the R-R intervals (RRI) [9]. 
 
@@ -96,13 +96,13 @@ Heart rate variability can be detected with various methods. ECG is considered t
 
 Figure 3 shows a typical fitness and wellness watch having an optical heart rate sensor [10]. The light emitting diodes (LEDs) and optical detectors are seen on the back of the watch. 
  
-# add image here
+![Figure 3](/Images/RequirementsSpecifications/fig3.png)
  
 Figure 3. An example of fitness and wellness watch having an optical heart rate sensor. [10] 
 
 Figure 4 shows an example of photoplethysmography signal recorded with wrist worn pulse oximetry [11]. The device is shown on the left. The sensor is attached to the thumb. The PPG signal is shown on the right. The inter-beat-interval (IBI) is calculated from the negative peaks (the bottoms) of the PPG signal. It could be calculated also from the positive peaks (the maximum) or from the rising edges of the signal.  
 
- # add image here
+![Figure 4](/Images/RequirementsSpecifications/fig4.png)
 
 Figure 4. An example of photoplethysmography signal recorded with pulse oximetry used on the thumb. [11] 
 
@@ -162,11 +162,11 @@ Based on the common measures of HRV, special indexes representing the parasympat
 
 Each parameter is compared to their normal population values and the values are then scaled with standard deviations (SD) of normal population and finally a proprietary weighting is applied to obtain the index values. These are illustrated in Figure 2 and Figure 3.  
 
- # add image here
+![Figure 5](/Images/RequirementsSpecifications/fig5.png)
 
 Figure 5. Parasympathetic nervous system (PNS) index. High positive values are interpreted as a good recovery of the test subject. [13] 
 
-# add image here
+![Figure 6](/Images/RequirementsSpecifications/fig6.png)
 
 Figure 6. Sympathetic nervous system (SNS) index. High negative values are interpreted as a low stress of the test subject. [13] 
 
@@ -181,7 +181,7 @@ Metropolia University of Applied Sciences’ teaching personnel together with se
 #### 2.2.2 Application concept 
 The core of the proof-of-concept is Raspberry Pi Pico, a small and versatile microcontroller board designed for IoT devices. The device is adaptable to a wide range of applications in home, hobby, education, and industry. It is programmable both in C and MicroPython, of which MicroPython is used for this project. The device has a rich set of peripherals, including SPI, I2C, and programmable I/O state machines for custom peripheral support. It has also a wireless version, Raspberry Pi Pico W, having a fully certified wireless LAN module. [18] 
 
-# add image here
+![Figure 7](/Images/RequirementsSpecifications/fig7.png)
 
 Figure 7. Photograph of the development board with connected Raspberry Pi Pico board, OLED display and optical heart rate sensor. 
 
@@ -201,7 +201,7 @@ The heart rate is detected using the optical heart rate sensor (Pulse Sensor v2.
 
 The data is preprocessed with Pico. Pico’s wireless connection can be used to send the data to a cloud server and return the analysis results to the development board and show them to the user. Figure 8 illustrates the cloud and web-server architecture of the system. 
 
-# add image here
+![Figure 8](/Images/RequirementsSpecifications/fig8.png)
 
 Figure 8. Illustration of the web-server architecture of the whole system. 
 
@@ -250,14 +250,14 @@ The user can control the operation of the device using the rotary switch and kno
 #### 3.1.1 OLED display 
 The OLED display has 128x64 pixels and can display both text and graphics as shown in Figure 9. The display is controlled by SSD1306 circuit which is embedded to the display. The SSD1306 compatible OLED display uses either a SPI or I2C interface. MicroPython documentation gives examples how to use the library [28]. A suitable SSD1306 MicroPython compatible library can be downloaded, for example, from here [29]. 
 
-# add image here
+![Figure 9](/Images/RequirementsSpecifications/fig9.png)
  
 Figure 9. SSD1306 compatible OLED-display used in the project. 
 
 #### 3.1.2 Rotary encoder 
 A rotary encoder is a device that will provide you with pulses to indicate the direction and speed of the rotation. The device has three outputs ROT A, ROT B, and Rot Switch. The Rot Switch behaves just like a standard push button tactile switch. When you press the knob in, the signal goes from high to low or low to high depending on how the encoder is wired up. Figure 10 illustrates the rotary encoder. 
 
-# add image here
+![Figure 10](/Images/RequirementsSpecifications/fig10.png)
 
 Figure 10. A rotary encoder with integrated push button switch. 
 
@@ -267,24 +267,24 @@ This means that we can essentially use one channel either Rot A or Rot B as a cl
 
 In Figure 11 you can see that when Rot B goes from low to high the value on Rot A is zero. In this case it is indicating Clockwise rotation. The more clock pulses per second indicates faster rotation of the encoder. 
  
-# add image here
+![Figure 11](/Images/RequirementsSpecifications/fig11.png)
  
 Figure 11. Illustration of the Rot A and Rot B signals, when the rotary knob is turned Clockwise direction. 
 
 In Figure 12 the opposite case is true. When Rot B (clock signal) goes from low to high it can be observed that the state of the Rot A pin is high. This indicates Counter or Anti-clockwise rotation. The speed of rotation is indicated in the same way. 
 
-# add image here
+![Figure 12](/Images/RequirementsSpecifications/fig12.png)
 
 Figure 12. Illustration of the Rot A and Rot B signals when the rotrary knob is turned Anti-clockwise direction. 
 
 #### 3.1.3 Grove connectors 
 The hardware provides 6 modular, standardized Grove connectors for prototyping purposes [30]. The Grove connector is also compatible with Crowtail connectors and cables. The Grove connector and Grove cables are shown in Figure 13 and Figure 14. 
 
-# add image here
+![Figure 13](/Images/RequirementsSpecifications/fig13.png)
 
 Figure 13. A 4-pin 2.0 mm pitch DIP Grove female header [31]. 
 
-# add image here
+![Figure 14](/Images/RequirementsSpecifications/fig14.png)
 
 Figure 14. A 4-bin buckled Grove cables [31]. 
 
@@ -293,11 +293,11 @@ The Grove connector has 4 pins. One of the pins is the reserved for the operatin
 #### 3.1.4 Heart rate sensor 
 Crowtails pulse sensor v2.0 is connected through the Grove-connector to the Raspberry Pi Pico’s analog inputs [19]. The heart rate sensor is shown in Figure 15 and Figure 16.  
 
-# add image here
+![Figure 15](/Images/RequirementsSpecifications/fig15.png)
 
 Figure 15. Crowtail pulse sensor v2.0 shown from the back (component) side. 
 
-# add image here
+![Figure 16](/Images/RequirementsSpecifications/fig16.png)
 
 Figure 16. Crowtail pulse sensor v2.0 shown from the front (sensor) side. 
 
@@ -308,7 +308,7 @@ The finger (or other place location on which the heart rate is detected) is on t
 #### 3.1.5 USB-port 
 The Raspberry Pi Pico has a micro-USB port that can be used to access the USB bootloader stored in the RP2040 boot ROM. It can also be used by user code, to access an external USB device or host ​[32]​.  Figure 17 shows the Raspberry Pi Pico board and its USB-port. 
 
-# add image here
+![Figure 17](/Images/RequirementsSpecifications/fig17.png)
  
 Figure 17. The Raspberry Pi Pico board [32]. 
 
