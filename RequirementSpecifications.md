@@ -21,6 +21,7 @@ Version | Date | Reason for changes | Author
 - [1.3	Definitions, acronyms, and abbreviations](#13-definitions-acronyms-and-abbreviations)
 - [1.4	References](#14-references)
 - [1.5	Overview](#15-overview)
+
 [2	General description](#2-general-description)
 - [2.1	Product perspective](#21-product-perspective)
     - [2.1.1	Stress	10](#211-stress)
@@ -34,6 +35,7 @@ Version | Date | Reason for changes | Author
     - [2.2.4	Key features](#224-key-features)
 - [2.3	Use, users, and application characteristics](#23-use-users-and-application-characteristics)
 - [2.4	Development tools](#24-development-tools)
+
 [3	Specific requirements](#3-specific-requirements)
 - [3.1	User interfaces](#31-user-interfaces)
     - [3.1.1	OLED display](#311-oled-display)
