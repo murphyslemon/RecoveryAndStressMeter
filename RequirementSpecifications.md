@@ -209,12 +209,12 @@ Table 1. Selected time-domain measures of HRV [12].
       <td>Number of pairs of adjacent NN intervals differing by more than 50 ms in the entire recording; three variants are possible counting all such NN intervals pairs or only pairs in which the first or the second interval is longer</td>
     </tr>
     <tr>
+        <td align="center" colspan="3">Geometric measures</td>
+    </tr>
+    <tr>
       <td>pNN50</td>
       <td>%</td>
       <td>NN50 count divided by the total number of all NN intervals</td>
-    </tr>
-    <tr>
-        <td align="center" colspan="3">Geometric measures</td>
     </tr>
     <tr>
       <td>HRV triangular index</td>
@@ -242,94 +242,97 @@ Table 1. Selected time-domain measures of HRV [12].
 Table 2. Selected frequency-domain measures of HRV [12]. 
 
 <table>
-  <thead>
-    <tr>
-      <th>Variable</th>
-      <th>Unit</th>
-      <th>Description</th>
-      <th>Frequency range</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-        <td align="center" colspan="3">Analysis of short-term recordings (5 min)</td>
-    </tr>
-    <tr>
-      <td>5-min total power</td>
-      <td>ms2</td>
-      <td>The variance of NN intervals over the temporal segment</td>
-      <td>≈≤0.4 Hz</td>
-    </tr>
-    <tr>
-      <td>VLF</td>
-      <td>ms2</td>
-      <td>Power in VLF range</td>
-      <td>≤0.04 Hz</td>
-    </tr>
-    <tr>
-      <td>LF</td>
-      <td>ms2</td>
-      <td>Power in LF range</td>
-      <td>0.04–0.15 Hz</td>
-    </tr>
-    <tr>
-      <td>LF norm</td>
-      <td>n.u.</td>
-      <td>LF power in normalized units LF/(total power-VLF)×100</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>HF</td>
-      <td>ms2</td>
-      <td>Power in HF range</td>
-      <td>0.15–0.4 Hz</td>
-    </tr>
-    <tr>
-      <td>HF norm</td>
-      <td>n.u.</td>
-      <td>HF power in normalized units HF/(total power-VLF)×100</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>LF/HF</td>
-      <td></td>
-      <td>Ratio LF/HF</td>
-      <td></td>
-    </tr>
-    <tr>
-        <td align="center" colspan="3">Analysis of entire 24 hours</td>
-    </tr>
-    <tr>
-      <td>Total power</td>
-      <td>ms2</td>
-      <td>Variance of all NN intervals</td>
-      <td>≈≤0.4 Hz</td>
-    </tr>
-    <tr>
-      <td>ULF</td>
-      <td>ms2</td>
-      <td>Power in the ULF range</td>
-      <td>≤0.003 Hz</td>
-    </tr>
-    <tr>
-      <td>LF</td>
-      <td>ms2</td>
-      <td>Power in the VLF range</td>
-      <td>0.003–0.04 Hz</td>
-    </tr>
-    <tr>
-      <td>VLF</td>
-      <td>ms2</td>
-      <td>Power in the LF range</td>
-      <td>0.04–0.15 Hz</td>
-    </tr>
-    <tr>
-      <td>HF</td>
-      <td>ms2</td>
-      <td>Power in the HF range</td>
-      <td>0.15–0.4 Hz</td>
-    </tr>
-    <tr
+  <tr>
+    <th>Variable</th>
+    <th>Unit</th>
+    <th>Description</th>
+    <th>Frequency range</th>
+  </tr>
+  <tr>
+    <td align="center" colspan="4">Analysis of short-term recordings (5 min)</td>
+  </tr>
+  <tr>
+    <td>5-min total power</td>
+    <td>ms2</td>
+    <td>The variance of NN intervals over the temporal segment</td>
+    <td>≈≤0.4 Hz</td>
+  </tr>
+  <tr>
+    <td>VLF</td>
+    <td>ms2</td>
+    <td>Power in VLF range</td>
+    <td>≤0.04 Hz</td>
+  </tr>
+  <tr>
+    <td>LF</td>
+    <td>ms2</td>
+    <td>Power in LF range</td>
+    <td>0.04–0.15 Hz</td>
+  </tr>
+  <tr>
+    <td>LF norm</td>
+    <td>n.u.</td>
+    <td>LF power in normalized units LF/(total power-VLF)×100</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>HF</td>
+    <td>ms2</td>
+    <td>Power in HF range</td>
+    <td>0.15–0.4 Hz</td>
+  </tr>
+  <tr>
+    <td>HF norm</td>
+    <td>n.u.</td>
+    <td>HF power in normalized units HF/(total power-VLF)×100</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>LF/HF</td>
+    <td></td>
+    <td>Ratio LF/HF</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="4">Analysis of entire 24 hours</td>
+  </tr>
+  <tr>
+    <td>Total power</td>
+    <td>ms2</td>
+    <td>Variance of all NN intervals</td>
+    <td>≈≤0.4 Hz</td>
+  </tr>
+  <tr>
+    <td>ULF</td>
+    <td>ms2</td>
+    <td>Power in the ULF range</td>
+    <td>≤0.003 Hz</td>
+  </tr>
+  <tr>
+    <td>LF</td>
+    <td>ms2</td>
+    <td>Power in the VLF range</td>
+    <td>0.003–0.04 Hz</td>
+  </tr>
+  <tr>
+    <td>VLF</td>
+    <td>ms2</td>
+    <td>Power in the LF range</td>
+    <td>0.04–0.15 Hz</td>
+  </tr>
+  <tr>
+    <td>HF</td>
+    <td>ms2</td>
+    <td>Power in the HF range</td>
+    <td>0.15–0.4 Hz</td>
+  </tr>
+  <tr>
+    <td>α</td>
+    <td></td>
+    <td>Slope of the linear interpolation of the spectrum in a log-log scale</td>
+    <td></td>
+  </tr>
+</table>
 
 ULF = Ultra low frequency, VLF = Very low frequency, LF = Low frequency, HF = High frequency.  
 
