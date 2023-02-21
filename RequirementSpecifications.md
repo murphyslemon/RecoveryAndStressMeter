@@ -16,8 +16,9 @@ Version | Date | Reason for changes | Author
 
 ## Document approval
 This document has been accepted and approved by the project teacher and management team:
+
 Name | Title | Date
-- | - | -
+------------- | ------------- | -------------
 Joseph Hotchkiss | Senior Lecturer\Project teacher | 6.2.2023
 Keijo Länsikunnas | Senior Lecturer\Project teacher | 6.2.2023
 Saana Vallius | Senior Lecturer\Project teacher | 6.2.2023
