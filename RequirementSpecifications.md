@@ -175,6 +175,9 @@ Table 1. Selected time-domain measures of HRV [12].
     </tr>
   </thead>
   <tbody>
+  <tr>
+        <td align="center" colspan="3">Statistical measures</td>
+    </tr>
     <tr>
       <td>SDNN</td>
       <td>ms</td>
@@ -211,6 +214,9 @@ Table 1. Selected time-domain measures of HRV [12].
       <td>NN50 count divided by the total number of all NN intervals</td>
     </tr>
     <tr>
+        <td align="center" colspan="3">Geometric measures</td>
+    </tr>
+    <tr>
       <td>HRV triangular index</td>
       <td></td>
       <td>Total number of all NN intervals divided by the height of the histogram of all NN intervals measured on a discrete scale with bins of 7.8125 ms (1/128 seconds)</td>
@@ -235,23 +241,95 @@ Table 1. Selected time-domain measures of HRV [12].
 
 Table 2. Selected frequency-domain measures of HRV [12]. 
 
-Variable | Unit | Description | Frequency range 
-------------- | ------------- | ------------- | -------------
-Analysis of short-term recordings (5 min) | | |
-5-min total power | ms2 | The variance of NN intervals over the temporal segment | ≈≤0.4 Hz 
-VLF | ms2 | Power in VLF range | ≤0.04 Hz 
-LF | ms2 | Power in LF range | 0.04–0.15 Hz 
-LF norm | n.u. | LF power in normalized units LF/(total power-VLF)×100 |
-HF | ms2 | Power in HF range | 0.15–0.4 Hz 
-HF norm | n.u. | HF power in normalized units HF/(total power-VLF)×100 |
-LF/HF | | Ratio LF/HF |
-Analysis of entire 24 hours | | |
-Total power | ms2 | Variance of all NN intervals | ≈≤0.4 Hz 
-ULF | ms2 | Power in the ULF range | ≤0.003 Hz 
-LF | ms2 | Power in the VLF range | 0.003–0.04 Hz 
-VLF | ms2 | Power in the LF range | 0.04–0.15 Hz 
-HF | ms2 | Power in the HF range | 0.15–0.4 Hz 
-α | | Slope of the linear interpolation of the spectrum in a log-log scale |
+<table>
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>Unit</th>
+      <th>Description</th>
+      <th>Frequency range</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+        <td align="center" colspan="3">Analysis of short-term recordings (5 min)</td>
+    </tr>
+    <tr>
+      <td>5-min total power</td>
+      <td>ms2</td>
+      <td>The variance of NN intervals over the temporal segment</td>
+      <td>≈≤0.4 Hz</td>
+    </tr>
+    <tr>
+      <td>VLF</td>
+      <td>ms2</td>
+      <td>Power in VLF range</td>
+      <td>≤0.04 Hz</td>
+    </tr>
+    <tr>
+      <td>LF</td>
+      <td>ms2</td>
+      <td>Power in LF range</td>
+      <td>0.04–0.15 Hz</td>
+    </tr>
+    <tr>
+      <td>LF norm</td>
+      <td>n.u.</td>
+      <td>LF power in normalized units LF/(total power-VLF)×100</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>HF</td>
+      <td>ms2</td>
+      <td>Power in HF range</td>
+      <td>0.15–0.4 Hz</td>
+    </tr>
+    <tr>
+      <td>HF norm</td>
+      <td>n.u.</td>
+      <td>HF power in normalized units HF/(total power-VLF)×100</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LF/HF</td>
+      <td></td>
+      <td>Ratio LF/HF</td>
+      <td></td>
+    </tr>
+    <tr>
+        <td align="center" colspan="3">Analysis of entire 24 hours</td>
+    </tr>
+    <tr>
+      <td>Total power</td>
+      <td>ms2</td>
+      <td>Variance of all NN intervals</td>
+      <td>≈≤0.4 Hz</td>
+    </tr>
+    <tr>
+      <td>ULF</td>
+      <td>ms2</td>
+      <td>Power in the ULF range</td>
+      <td>≤0.003 Hz</td>
+    </tr>
+    <tr>
+      <td>LF</td>
+      <td>ms2</td>
+      <td>Power in the VLF range</td>
+      <td>0.003–0.04 Hz</td>
+    </tr>
+    <tr>
+      <td>VLF</td>
+      <td>ms2</td>
+      <td>Power in the LF range</td>
+      <td>0.04–0.15 Hz</td>
+    </tr>
+    <tr>
+      <td>HF</td>
+      <td>ms2</td>
+      <td>Power in the HF range</td>
+      <td>0.15–0.4 Hz</td>
+    </tr>
+    <tr
 
 ULF = Ultra low frequency, VLF = Very low frequency, LF = Low frequency, HF = High frequency.  
 
