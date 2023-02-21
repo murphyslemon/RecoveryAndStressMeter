@@ -19,15 +19,10 @@ This document has been accepted and approved by the project teacher and manageme
 
 Name | Title | Date
 ------------- | ------------- | -------------
-Joseph Hotchkiss | Senior Lecturer\
-Project teacher | 6.2.2023
-Keijo Länsikunnas | Senior Lecturer\
-Project teacher | 6.2.2023
-Saana Vallius | Senior Lecturer\
-Project teacher | 6.2.2023
-Sakari Lukkarinen | Senior Lecturer\
-Project teacher\
-Project requirements manager | 6.2.2023
+Joseph Hotchkiss | Senior Lecturer  Project teacher | 6.2.2023
+Keijo Länsikunnas | Senior Lecturer  Project teacher | 6.2.2023
+Saana Vallius | Senior Lecturer\  Project teacher | 6.2.2023
+Sakari Lukkarinen | Senior Lecturer  Project teacher  Project requirements manager | 6.2.2023
 
 
 ## Contents
