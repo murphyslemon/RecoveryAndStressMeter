@@ -166,21 +166,72 @@ At present there is no accepted standard for stress evaluation. However, several
 The European Society of Cardiology together with the North American Society of Pacing and Electrophysiology have defined and established the standards for the measurement, physiological interpretation, and clinical use of HRV [12]. The most used time-domain and frequency-domain measures of HRV are summarized in Table 1 and Table 2. 
 
 Table 1. Selected time-domain measures of HRV [12]. 
-Variable | Unit | Description
-------------- | ------------- | -------------
-Statistical measures | |
-SDNN | ms | Standard deviation of all NN intervals 
-SDANN | ms | Standard deviation of the averages of NN intervals in all 5-minute segments of the entire recording 
-RMSSD | ms | The square root of the mean of the sum of the squares of differences between adjacent NN intervals 
-SDNN index | ms | Mean of the standard deviations of all NN intervals for all 5-minute segments of the entire recording 
-SDSD | ms | Standard deviation of differences between adjacent NN intervals 
-NN50 count | |Number of pairs of adjacent NN intervals differing by more than 50 ms in the entire recording; three variants are possible counting all such NN intervals pairs or only pairs in which the first or the second interval is longer 
-pNN50 | % |NN50 count divided by the total number of all NN intervals 
-Geometric measures | |
-HRV triangular index | | Total number of all NN intervals divided by the height of the histogram of all NN intervals measured on a discrete scale with bins of 7.8125 ms (1/128 seconds) 
-TINN | ms | Baseline width of the minimum square difference triangular interpolation of the highest peak of the histogram of all NN intervals 
-Differential index | ms | Difference between the widths of the histogram of differences between adjacent NN intervals measured at selected heights (e.g., at the levels of 1,000 and 10,000 samples) 
-Logarithmic index | | Coefficient φ of the negative exponential curve k · e−φt, which is the best approximation of the histogram of absolute differences between adjacent NN intervals 
+<table>
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>Unit</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SDNN</td>
+      <td>ms</td>
+      <td>Standard deviation of all NN intervals</td>
+    </tr>
+    <tr>
+      <td>SDANN</td>
+      <td>ms</td>
+      <td>Standard deviation of the averages of NN intervals in all 5-minute segments of the entire recording</td>
+    </tr>
+    <tr>
+      <td>RMSSD</td>
+      <td>ms</td>
+      <td>The square root of the mean of the sum of the squares of differences between adjacent NN intervals</td>
+    </tr>
+    <tr>
+      <td>SDNN index</td>
+      <td>ms</td>
+      <td>Mean of the standard deviations of all NN intervals for all 5-minute segments of the entire recording</td>
+    </tr>
+    <tr>
+      <td>SDSD</td>
+      <td>ms</td>
+      <td>Standard deviation of differences between adjacent NN intervals</td>
+    </tr>
+    <tr>
+      <td>NN50 count</td>
+      <td></td>
+      <td>Number of pairs of adjacent NN intervals differing by more than 50 ms in the entire recording; three variants are possible counting all such NN intervals pairs or only pairs in which the first or the second interval is longer</td>
+    </tr>
+    <tr>
+      <td>pNN50</td>
+      <td>%</td>
+      <td>NN50 count divided by the total number of all NN intervals</td>
+    </tr>
+    <tr>
+      <td>HRV triangular index</td>
+      <td></td>
+      <td>Total number of all NN intervals divided by the height of the histogram of all NN intervals measured on a discrete scale with bins of 7.8125 ms (1/128 seconds)</td>
+    </tr>
+    <tr>
+      <td>TINN</td>
+      <td>ms</td>
+      <td>Baseline width of the minimum square difference triangular interpolation of the highest peak of the histogram of all NN intervals</td>
+    </tr>
+    <tr>
+      <td>Differential index</td>
+      <td>ms</td>
+      <td>Difference between the widths of the histogram of differences between adjacent NN intervals measured at selected heights (e.g., at the levels of 1,000 and 10,000 samples)</td>
+    </tr>
+    <tr>
+      <td>Logarithmic index</td>
+      <td></td>
+      <td>Coefficient φ of the negative exponential curve k · e−φt, which is the best approximation of the histogram of absolute differences between adjacent NN intervals</td>
+    </tr>
+  </tbody>
+</table>
 
 Table 2. Selected frequency-domain measures of HRV [12]. 
 
