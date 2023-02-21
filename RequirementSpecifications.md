@@ -14,6 +14,16 @@ Version | Date | Reason for changes | Author
 2.3 | 5.2.2023 | Added missing hardware components, simplified the contents, use cases and functional requirements moved to Excel sheet | Joseph Hotckiss, Sakari Lukkarinen
 2.4 | 6.2.2023 | Changes based on review meeting | Joseph Hotchkiss, Keijo Länsikunnas, Saana Vallius, Miguel Cheneuer, Sakari Lukkarinen
 
+## Document approval
+This document has been accepted and approved by the project teacher and management team:
+Name | Title | Date
+- | - | -
+Joseph Hotchkiss | Senior Lecturer\Project teacher | 6.2.2023
+Keijo Länsikunnas | Senior Lecturer\Project teacher | 6.2.2023
+Saana Vallius | Senior Lecturer\Project teacher | 6.2.2023
+Sakari Lukkarinen | Senior Lecturer\Project teacher\Project requirements manager | 6.2.2023
+
+
 ## Contents
 [1	Introduction](#1-introductionIn)
 - [1.1	Purpose](#11-purpose)
@@ -29,7 +39,7 @@ Version | Date | Reason for changes | Author
     - [2.1.3	Heart rate variability](#213-heart-rate-variability)
     - [2.1.4	Recovery and stress indexes](#214-recovery-and-stress-indexes)
 - [2.2	Product functions](#22-product-functions)
-- [2.2.1	The purpose](#221-the-purpose)
+    - [2.2.1	The purpose](#221-the-purpose)
     - [2.2.2	Application concept](#222-application-concept)
     - [2.2.3	Operating principle](#223-operating-principle)
     - [2.2.4	Key features](#224-key-features)
