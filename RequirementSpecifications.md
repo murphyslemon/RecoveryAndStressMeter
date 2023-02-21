@@ -251,7 +251,7 @@ Table 2. Selected frequency-domain measures of HRV [12].
     </tr>
   </thead>
   <tbody>
-  <tr>
+    <tr>
         <td align="center" colspan="3">Analysis of short-term recordings (5 min)</td>
     </tr>
     <tr>
