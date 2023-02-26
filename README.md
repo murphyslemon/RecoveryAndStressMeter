@@ -1,9 +1,9 @@
 # Stressmeter 9000
-Team 2: Team Stress-A-Lot
+**Team 2:** Team Stress-A-Lot
 
-Project Manager: Sakari Lukkarinen
+**Project Manager:** Sakari Lukkarinen
 
-Team Members:
+**Team Members:**
 - Chad Clusker
 - Igor Rynty
 - Joona Rantala
