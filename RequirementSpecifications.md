@@ -1,5 +1,5 @@
 Sakari Lukkarinen
-Hardware 2 project requirements
+# Hardware 2 project requirements
 Version 2.4\
 06 February 2023\
 Prepared for the Hardware 1 & 2 courses\
