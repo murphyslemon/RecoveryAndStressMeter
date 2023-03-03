@@ -26,10 +26,15 @@ Version | Description | Date | Authors
 1.6 | Finalized the remaining sections. | 3.3.2023 | CC, IR, FN, JR
 
 [Introduction](#introduction)
+
 [Project Description](#project-description)
+
 [Communication](#communication)
+
 [Version Control](#version-control)
+
 [Schedule](#schedule)
+
 [Goals](#goals)
 
 ## Introduction
