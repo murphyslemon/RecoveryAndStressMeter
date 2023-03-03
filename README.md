@@ -45,14 +45,14 @@ In order to do this, we will learn about the necessary hardware and software to 
 
 ## Project Description
 
-### HARDWARE COMPONENTS:
-
 Stressmeter 9000 is a portable device that uses photoplethysmography (PPG) technology to measure heart rate. The data is obtained using a Crowtail Pulse sensor 2.0 and then pre-processed by the Raspberry Pi Pico so that it can be sent to our server for HRV analysis. Once the data is finalized it will be stored in a database and a live view will be shown on an OLED display. In figure 1 we can see how all the device components work in conjunction with each other. 
 
 ![Project Architecture Diagram](/Images/Project_arichitecture.png)
 Figure 1. Project Architecture 
 
 Additionally, we would like to go through the list of all hardware components and software tools that will be used to complete this project: 
+
+### HARDWARE COMPONENTS:
 - **Protoboard**\
     Passive protoboard specially designed for this project to help connect the other components to the Raspberry Pi Pico. 
 
