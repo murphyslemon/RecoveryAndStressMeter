@@ -118,7 +118,7 @@ We as a team have agreed to keep a consistent schedule by having weekly meetings
 
 Below Figure 2 shows the estimated schedule for the project plan and the first stages of development.
 
-![Project Architecture Diagram](/Images/Project_arichitecture.png)
+![GANTT Project Schedule](/Images/GANTT.png)
 Figure 2. GANTT Project Schedule
 
 
